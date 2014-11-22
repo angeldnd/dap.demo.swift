@@ -1,0 +1,20 @@
+PODS:
+  - DapCore (0.1.0)
+  - DapLua (0.1.0):
+    - DapCore (~> 0.1.0)
+
+DEPENDENCIES:
+  - DapCore (from `../dap.core.swift`)
+  - DapLua (from `../dap.lua.swift`)
+
+EXTERNAL SOURCES:
+  DapCore:
+    :path: ../dap.core.swift
+  DapLua:
+    :path: ../dap.lua.swift
+
+SPEC CHECKSUMS:
+  DapCore: 461cc9d439ec381a98acdffe3824003b0f659e9c
+  DapLua: d84c3a4ca255a907fcc0c93c7e2d3e5d32f1fcf3
+
+COCOAPODS: 0.35.0
