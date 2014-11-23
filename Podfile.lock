@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: ../dap.lua.swift
 
 SPEC CHECKSUMS:
-  DapCore: 461cc9d439ec381a98acdffe3824003b0f659e9c
-  DapLua: d84c3a4ca255a907fcc0c93c7e2d3e5d32f1fcf3
+  DapCore: 8fdeed15545884cf8719c81ecef57cd1f3e13a9d
+  DapLua: 5a4c92e9f1e537e62b628f538c13c4235096b091
 
 COCOAPODS: 0.35.0
