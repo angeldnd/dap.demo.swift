@@ -2,5 +2,14 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=21&amp;CharacterRangeLoc=922&amp;EndingColumnNumber=22&amp;EndingLineNumber=38&amp;StartingColumnNumber=1&amp;StartingLineNumber=38&amp;Timestamp=439576505.599146">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/yjpark/projects/anglednd/dap.demo.swift/Playgrounds/Test.playground#CharacterRangeLen=24&amp;CharacterRangeLoc=175&amp;EndingLineNumber=9&amp;StartingLineNumber=9&amp;Timestamp=439576505.599344">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1885&amp;EndingColumnNumber=6&amp;EndingLineNumber=71&amp;StartingColumnNumber=5&amp;StartingLineNumber=71&amp;Timestamp=439578867.920266">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
