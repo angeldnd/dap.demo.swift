@@ -81,3 +81,10 @@ if let d = a.dump() {
     b.getString("s")
     b.getDouble("double")
 }
+
+lua.eval("dap.add_item('new', 'Item')")
+var item:Item = Registry.Global.get("new")!
+
+item.addBool("test", false)
+item.setBool("test", true)
+item.getBool("test")
