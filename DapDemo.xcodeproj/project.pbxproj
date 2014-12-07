@@ -10,6 +10,7 @@
 		006982CCA0BA7C290E104D24 /* Pods_DapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF0C786C648EC1E307E132F /* Pods_DapDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		00A72ED51A20FD7E00D8B84C /* DapCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A72ED41A20FD7E00D8B84C /* DapCore.framework */; };
 		00A72ED71A20FD8300D8B84C /* DapLua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A72ED61A20FD8300D8B84C /* DapLua.framework */; };
+		00B1338B1A34742100DBA5EE /* lua in Resources */ = {isa = PBXBuildFile; fileRef = 00B1338A1A34742100DBA5EE /* lua */; };
 		00B6C3C91A20668100CB16BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6C3C81A20668100CB16BE /* AppDelegate.swift */; };
 		00B6C3CB1A20668100CB16BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6C3CA1A20668100CB16BE /* FirstViewController.swift */; };
 		00B6C3CD1A20668100CB16BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6C3CC1A20668100CB16BE /* SecondViewController.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		00A72ED41A20FD7E00D8B84C /* DapCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DapCore.framework; path = "Pods/build/Debug-iphoneos/Pods-DapDemo/DapCore.framework"; sourceTree = "<group>"; };
 		00A72ED61A20FD8300D8B84C /* DapLua.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DapLua.framework; path = "Pods/build/Debug-iphoneos/Pods-DapDemo/DapLua.framework"; sourceTree = "<group>"; };
+		00B1338A1A34742100DBA5EE /* lua */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lua; sourceTree = "<group>"; };
 		00B6C3C31A20668100CB16BE /* DapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B6C3C71A20668100CB16BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B6C3C81A20668100CB16BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		00B6C3BA1A20668100CB16BE = {
 			isa = PBXGroup;
 			children = (
+				00B1338A1A34742100DBA5EE /* lua */,
 				00B6C3C51A20668100CB16BE /* DapDemo */,
 				00B6C3DD1A20668100CB16BE /* DapDemoTests */,
 				00B6C3C41A20668100CB16BE /* Products */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B6C3D01A20668100CB16BE /* Main.storyboard in Resources */,
+				00B1338B1A34742100DBA5EE /* lua in Resources */,
 				00B6C3D51A20668100CB16BE /* LaunchScreen.xib in Resources */,
 				00B6C3D21A20668100CB16BE /* Images.xcassets in Resources */,
 			);
