@@ -26,7 +26,7 @@ a.getInt("int")
 lua.eval("dap.set_float('test', 'float', 10.2)")
 a.getFloat("float")
 
-lua.eval("dap.set_double('test', 'double', 1.02)")
+lua.eval("dap.set_double('test', 'double', 10.2)")
 a.getDouble("double")
 
 lua.eval("dap.set_string('test', 'string', 'next')")
