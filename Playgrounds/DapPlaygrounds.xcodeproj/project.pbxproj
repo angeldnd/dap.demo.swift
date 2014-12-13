@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003CA40D1A3BFB3F00F9C0AE /* utils.moon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = utils.moon; path = ../../dap.lua.lib/lua.dap/dap/utils.moon; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
+		003CA40D1A3BFB3F00F9C0AE /* utils.moon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = utils.moon; path = ../../dap.lua.lib/lua.dap/dap/utils.moon; sourceTree = "<group>"; };
 		00A7306E1A21B4BB00D8B84C /* DapPlaygrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DapPlaygrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A730721A21B4BB00D8B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A730731A21B4BB00D8B84C /* DapPlaygrounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DapPlaygrounds.h; sourceTree = "<group>"; };
