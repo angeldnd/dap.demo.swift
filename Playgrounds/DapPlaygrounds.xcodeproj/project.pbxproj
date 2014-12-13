@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003CA40E1A3BFB3F00F9C0AE /* utils.moon in Resources */ = {isa = PBXBuildFile; fileRef = 003CA40D1A3BFB3F00F9C0AE /* utils.moon */; };
 		00A730741A21B4BB00D8B84C /* DapPlaygrounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A730731A21B4BB00D8B84C /* DapPlaygrounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00A7309D1A21B6C500D8B84C /* lua.dap in Resources */ = {isa = PBXBuildFile; fileRef = 00A7309B1A21B6C500D8B84C /* lua.dap */; };
 		00A7309E1A21B6C500D8B84C /* lua.lib in Resources */ = {isa = PBXBuildFile; fileRef = 00A7309C1A21B6C500D8B84C /* lua.lib */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003CA40D1A3BFB3F00F9C0AE /* utils.moon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = utils.moon; path = ../../dap.lua.lib/lua.dap/dap/utils.moon; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		00A7306E1A21B4BB00D8B84C /* DapPlaygrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DapPlaygrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A730721A21B4BB00D8B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A730731A21B4BB00D8B84C /* DapPlaygrounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DapPlaygrounds.h; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		00A730641A21B4BB00D8B84C = {
 			isa = PBXGroup;
 			children = (
+				003CA40D1A3BFB3F00F9C0AE /* utils.moon */,
 				00A730981A21B5A700D8B84C /* Test.playground */,
 				00A7309B1A21B6C500D8B84C /* lua.dap */,
 				00A7309C1A21B6C500D8B84C /* lua.lib */,
@@ -199,6 +202,7 @@
 			files = (
 				00A7309E1A21B6C500D8B84C /* lua.lib in Resources */,
 				00A7309D1A21B6C500D8B84C /* lua.dap in Resources */,
+				003CA40E1A3BFB3F00F9C0AE /* utils.moon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
