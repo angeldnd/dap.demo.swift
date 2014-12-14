@@ -3,7 +3,7 @@
 import UIKit
 
 import DapCore
-import DapLua
+import DapMRuby
 
 var a: Item = Registry.Global.add("test")!
 a.properties.addBool("test", true)
@@ -15,6 +15,20 @@ a.addString("string", "str")
 
 a.getString("string")
 
+var R = DapMRubyState.sharedState()
+
+R.eval("puts 'hello world'")
+
+R.eval("a = 3")
+
+R.eval("puts \"test #{a}\"")
+R.eval("a = 7")
+R.eval("puts \"test #{a}\"")
+R.eval("eval('puts a')")
+
+R.eval("puts 'end'")
+
+/*
 var lua = DapLuaState.sharedState()
 
 lua.eval("result = _dap.set_bool('test', 'bool', false); _dap.set_bool('test', 'result', result)")
@@ -88,3 +102,4 @@ var item:Item = Registry.Global.get("new")!
 item.addBool("test", false)
 item.setBool("test", true)
 item.getBool("test")
+*/

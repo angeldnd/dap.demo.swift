@@ -7,46 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003CA40E1A3BFB3F00F9C0AE /* utils.moon in Resources */ = {isa = PBXBuildFile; fileRef = 003CA40D1A3BFB3F00F9C0AE /* utils.moon */; };
+		0004F9B61A3D96AF004D1E68 /* DapMRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0004F9B11A3D968C004D1E68 /* DapMRuby.framework */; };
 		00A730741A21B4BB00D8B84C /* DapPlaygrounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A730731A21B4BB00D8B84C /* DapPlaygrounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00A7309D1A21B6C500D8B84C /* lua.dap in Resources */ = {isa = PBXBuildFile; fileRef = 00A7309B1A21B6C500D8B84C /* lua.dap */; };
-		00A7309E1A21B6C500D8B84C /* lua.lib in Resources */ = {isa = PBXBuildFile; fileRef = 00A7309C1A21B6C500D8B84C /* lua.lib */; };
-		00A730B11A21B8C600D8B84C /* DapLua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A730911A21B52900D8B84C /* DapLua.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00A730901A21B52900D8B84C /* PBXContainerItemProxy */ = {
+		0004F9B01A3D968C004D1E68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */;
+			containerPortal = 0004F9AA1A3D968C004D1E68 /* DapMRuby.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 00A72F3E1A2106B800D8B84C;
-			remoteInfo = DapLua;
+			remoteGlobalIDString = 0004F9081A3D881C004D1E68;
+			remoteInfo = DapMRuby;
 		};
-		00A730921A21B52900D8B84C /* PBXContainerItemProxy */ = {
+		0004F9B21A3D968C004D1E68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */;
+			containerPortal = 0004F9AA1A3D968C004D1E68 /* DapMRuby.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 00A72F491A2106B800D8B84C;
-			remoteInfo = DapLuaTests;
-		};
-		00A730AD1A21B84D00D8B84C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 00A72F3D1A2106B800D8B84C;
-			remoteInfo = DapLua;
+			remoteGlobalIDString = 0004F9131A3D881C004D1E68;
+			remoteInfo = DapMRubyTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003CA40D1A3BFB3F00F9C0AE /* utils.moon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = utils.moon; path = ../../dap.lua.lib/lua.dap/dap/utils.moon; sourceTree = "<group>"; };
+		0004F9AA1A3D968C004D1E68 /* DapMRuby.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DapMRuby.xcodeproj; path = ../../dap.mruby.swift/DapMRuby.xcodeproj; sourceTree = "<group>"; };
 		00A7306E1A21B4BB00D8B84C /* DapPlaygrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DapPlaygrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A730721A21B4BB00D8B84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A730731A21B4BB00D8B84C /* DapPlaygrounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DapPlaygrounds.h; sourceTree = "<group>"; };
-		00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DapLua.xcodeproj; path = ../../dap.lua.swift/DapLua.xcodeproj; sourceTree = "<group>"; };
 		00A730981A21B5A700D8B84C /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; };
-		00A7309B1A21B6C500D8B84C /* lua.dap */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lua.dap; path = ../../dap.lua.lib/lua.dap; sourceTree = "<group>"; };
-		00A7309C1A21B6C500D8B84C /* lua.lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lua.lib; path = ../../dap.lua.lib/lua.lib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,23 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A730B11A21B8C600D8B84C /* DapLua.framework in Frameworks */,
+				0004F9B61A3D96AF004D1E68 /* DapMRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0004F9AB1A3D968C004D1E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0004F9B11A3D968C004D1E68 /* DapMRuby.framework */,
+				0004F9B31A3D968C004D1E68 /* DapMRubyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		00A730641A21B4BB00D8B84C = {
 			isa = PBXGroup;
 			children = (
-				003CA40D1A3BFB3F00F9C0AE /* utils.moon */,
 				00A730981A21B5A700D8B84C /* Test.playground */,
-				00A7309B1A21B6C500D8B84C /* lua.dap */,
-				00A7309C1A21B6C500D8B84C /* lua.lib */,
 				00A730701A21B4BB00D8B84C /* DapPlaygrounds */,
 				00A7306F1A21B4BB00D8B84C /* Products */,
-				00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */,
+				0004F9AA1A3D968C004D1E68 /* DapMRuby.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,15 +92,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00A7308B1A21B52900D8B84C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00A730911A21B52900D8B84C /* DapLua.framework */,
-				00A730931A21B52900D8B84C /* DapLuaTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,7 +118,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				00A730AE1A21B84D00D8B84C /* PBXTargetDependency */,
 			);
 			name = DapPlaygrounds;
 			productName = DapPlaygrounds;
@@ -167,8 +150,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 00A7308B1A21B52900D8B84C /* Products */;
-					ProjectRef = 00A7308A1A21B52900D8B84C /* DapLua.xcodeproj */;
+					ProductGroup = 0004F9AB1A3D968C004D1E68 /* Products */;
+					ProjectRef = 0004F9AA1A3D968C004D1E68 /* DapMRuby.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -179,18 +162,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		00A730911A21B52900D8B84C /* DapLua.framework */ = {
+		0004F9B11A3D968C004D1E68 /* DapMRuby.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = DapLua.framework;
-			remoteRef = 00A730901A21B52900D8B84C /* PBXContainerItemProxy */;
+			path = DapMRuby.framework;
+			remoteRef = 0004F9B01A3D968C004D1E68 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		00A730931A21B52900D8B84C /* DapLuaTests.xctest */ = {
+		0004F9B31A3D968C004D1E68 /* DapMRubyTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = DapLuaTests.xctest;
-			remoteRef = 00A730921A21B52900D8B84C /* PBXContainerItemProxy */;
+			path = DapMRubyTests.xctest;
+			remoteRef = 0004F9B21A3D968C004D1E68 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -200,9 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A7309E1A21B6C500D8B84C /* lua.lib in Resources */,
-				00A7309D1A21B6C500D8B84C /* lua.dap in Resources */,
-				003CA40E1A3BFB3F00F9C0AE /* utils.moon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00A730AE1A21B84D00D8B84C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DapLua;
-			targetProxy = 00A730AD1A21B84D00D8B84C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00A730821A21B4BB00D8B84C /* Debug */ = {
@@ -322,6 +294,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yjpark/projects/anglednd/dap.core.swift/build/Debug-iphoneos",
+					"/Users/yjpark/projects/angeldnd/dap.core.swift/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = DapPlaygrounds/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -341,6 +314,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/yjpark/projects/anglednd/dap.core.swift/build/Debug-iphoneos",
+					"/Users/yjpark/projects/angeldnd/dap.core.swift/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = DapPlaygrounds/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

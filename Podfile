@@ -5,6 +5,6 @@ platform :ios, '8.1'
 target 'DapDemo', :exclusive => true do
   platform :ios, '8.1'
   pod "DapCore", :path => "../dap.core.swift"
-  pod "DapLua", :path => "../dap.lua.swift"
-  pod "DapLuaLib", :path => "../dap.lua.lib"
+  pod "DapMRuby", :path => "../dap.mruby.swift"
+  # pod "DapLuaLib", :path => "../dap.lua.lib"
 end
